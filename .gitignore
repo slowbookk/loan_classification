@@ -1,0 +1,9 @@
+_py_cache_
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+.env
+*.csv
+*.ipynb

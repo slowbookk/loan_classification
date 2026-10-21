@@ -1,0 +1,34 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Git and editors
+.git/
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.aws/
+
+# Training data and analysis
+data/
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+*.csv
+*.parquet
+reports/
+outputs/
+
+# Temporary files
+*.log
+*.zip
